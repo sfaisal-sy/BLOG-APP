@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG-IN</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.21/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="styless.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+   <header >
+        <div class="container mt-4 bg-dark text-white board rounded-5 text-center ">
+            <div class="row">
+                <div class="col ">
+                    <h1>REGISTER & PUBLISH YOUR POST</h1>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <hr>
+    <main class="m-3">
+        <section class="login-card bg-dark  mx-auto board rounded-5">
+            <div class="container form-card ">
+                <div class="row">
+                    <div class="col card-div bg-dark text-white  ">
+                        <form class="row g-3 " id="login-form">
+
+                            <h3>Log in here</h3>
+                            <hr>
+                            <div class="form-floating mb-4 ">
+                                <input id="user-email" type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+                            <div class="form-floating">
+                                <input id="user-passward" type="password" class="form-control" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="d-grid gap-2 col-6 mx-auto mt-3">
+
+                                <button id="login-btn" class="btn btn-primary" type="button">Log-in</button>
+                            </div>
+                        </form>
+                        <hr>
+                        <div class="d-grid gap-2 col-6 mx-auto mt-3">
+
+                            <a href="register.html">
+                                <button class="btn btn-primary w-100" type="button">Create Account</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <script src="bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.21/dist/sweetalert2.all.min.js"></script>
+</body>
+
+</html>
