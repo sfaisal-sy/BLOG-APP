@@ -18,6 +18,7 @@ loginBtn.addEventListener('click', (e) => {
             icon: "question",
             theme:'dark'
         });
+
         userEmailInput.focus();
         return;
     };
@@ -37,8 +38,7 @@ loginBtn.addEventListener('click', (e) => {
             icon: "question",
             theme:'dark'
         });
-    };
-    
+    };    
 
 });
 
