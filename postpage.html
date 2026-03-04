@@ -12,7 +12,7 @@
 
 <body>
     <header class="p-3">
-         <div class="container mt-4 bg-dark text-white board rounded-5 text-center  ">
+        <div class="container mt-4 bg-dark text-white board rounded-5 text-center  ">
             <div class="row">
                 <div class="col ">
                     <h1>PUBLISH YOUR POST</h1>
@@ -25,7 +25,8 @@
                 <div class="col">
                     <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label mb-3">Write Your Post</label>
-                        <textarea id="post" class="form-control bg-dark text-white "  id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea id="post" class="form-control bg-dark text-white " id="exampleFormControlTextarea1"
+                            rows="3"></textarea>
                     </div>
                     <div class="d-grid gap-2 col-6 mx-auto">
                         <button id="submit-btn" class="btn btn-primary" type="button">PUBLISH</button>
@@ -43,21 +44,24 @@
                     <thead style="text-align: center;">
                         <th>S.NO</th>
                         <th class="w-50">POST</th>
-                       
+
                         <th>Edit</th>
-                        <th>Delete</th>                        
+                        <th>Delete</th>
                     </thead>
-                    <tbody id="tbody" >
+                    <tbody id="tbody">
                         <!-- post render here -->
                     </tbody>
-            
+
                 </table>
+                <a href="showposts.html">
+                    <button class="btn btn-primary w-100" type="button">GO TO PUBLISHED POSTS</button>
+                </a>
             </div>
         </div>
     </div>
 
 
-    
+
     <script src="bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.21/dist/sweetalert2.all.min.js"></script>
 
