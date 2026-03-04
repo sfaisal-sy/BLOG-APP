@@ -22,8 +22,8 @@ loginBtn.addEventListener('click', (e) => {
         return;
     };
 
-    let getLocalData = JSON.parse(localStorage.getItem('allUser'));
-    console.log(getLocalData)
+    let getLocalData = JSON.parse(localStorage.getItem('allUser')) || [];
+    
 
     let checkEmail = getLocalData.some(user => user.idemail === userEmail);
     let checkPassward = getLocalData.some(user => user.emailPasward === userPassward);
@@ -37,10 +37,10 @@ loginBtn.addEventListener('click', (e) => {
             icon: "question",
             theme:'dark'
         });
-    }
+    };
     
 
-})
+});
 
 
 

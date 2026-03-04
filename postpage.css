@@ -16,3 +16,7 @@ body {
 .table {
     background-color: aqua !important;
 }
+
+.post{
+    height: 200px;
+}
