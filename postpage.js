@@ -89,5 +89,5 @@ submitBtn.addEventListener('click', (e) => {
         postInput.focus();
     }
 });
-// localStorage.removeItem('allPosts')
+
 
